@@ -35,19 +35,18 @@ var input = require(dois);
 
 // Variable l'entête du fichier csv
 var header = [
-  [
-    'doi-DOI',
-    'doi-publication-title',
-    'doi-publication-date-year',
-    'doi-publisher',
-    'doi-type',
-    'doi-ISSN',
-    'doi-subject',
-    'doi-author',
-    'hasORCID',
-    'doi-license-content-version',
-    'doi-license-URL'
-  ]
+  'doi-DOI',
+  'doi-publication-title',
+  'doi-publication-date-year',
+  'doi-publisher',
+  'doi-type',
+  'doi-ISSN',
+  'doi-subject',
+  'doi-author',
+  'hasORCID',
+  'doi-license-content-version',
+  'doi-license-URL',
+  '\n'
 ];
 
 // Écriture de l'entête du fichier CSV
