@@ -18,7 +18,7 @@ var SEPARATOR = ';';
 var argv = parseArgs(process.argv.slice(2));
 console.dir(argv);
 
-var output = argv.output || './output/crossref.csv', // nom du fichier de sortie
+var output = argv.output || './output.csv', // nom du fichier de sortie
   dois = argv.input || './resources/dois.json'; // nom du fichier contenant les dois
 
 /* Vairables */
