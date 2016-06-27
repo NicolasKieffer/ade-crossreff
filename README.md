@@ -1,2 +1,4 @@
-# ade-crossreff
-Script de l'ADE CrossReff
+ade-crossref
+===============
+
+Script pour l'ADE CrossRef
